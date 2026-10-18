@@ -1,0 +1,19 @@
+# Dependencies (Massive folders that can be reinstalled)
+node_modules/
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets (NEVER upload these)
+.env
+.env.local
+secrets.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+token.pickle
